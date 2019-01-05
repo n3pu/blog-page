@@ -5,16 +5,22 @@ module.exports = grunt => {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     sass: {
-      options: {
-        implementation: sass,
-        sourceMap: true
-      },
       dist: {
+        
         files: {
           'dist/css/main.css': 'src/scss/main.scss'
         }
       }
+      
+    },
+    watch: {
+      css:{
+        files: ['**/*.scss'],
+        tasks: ['sass']
+      }
     }
   });
-  grunt.registerTask('default', ['sass']);
+  grunt.loadNpmTasks('grunt-contrib-sass');
+	grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.registerTask('default',['watch']);
 };

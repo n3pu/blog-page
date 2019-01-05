@@ -1,4 +1,8 @@
 body p {
   background: #000; }
+body a:hover {
+  color: #000; }
+  body a:hover i {
+    background: #000; }
 
 /*# sourceMappingURL=main.css.map */

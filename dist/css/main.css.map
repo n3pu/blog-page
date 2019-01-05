@@ -1,9 +1,7 @@
 {
-	"version": 3,
-	"file": "main.css",
-	"sources": [
-		"../../src/scss/main.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AACE,IADE,CACF,CAAC,CAAA;EACC,UAAU,EAAE,IAAI,GACjB"
+"version": 3,
+"mappings": "AACE,MAAC;EACC,UAAU,EAAE,IAAI;AAElB,YAAO;EACL,KAAK,EAAE,IAAI;EACX,cAAC;IACC,UAAU,EAAE,IAAI",
+"sources": ["../../../../Sele%C3%A7%C3%A3o%20-%20SVM/blog-page/src/scss/main.scss"],
+"names": [],
+"file": "main.css"
 }
